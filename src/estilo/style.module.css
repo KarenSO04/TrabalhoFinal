@@ -1,0 +1,142 @@
+
+.containerMenu{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(69, 0, 158);
+    left: 0;
+}
+
+.itemMenu{ 
+    margin: 30px;
+    flex-direction: row;
+    list-style-type: none;
+    color: white;
+}
+
+.textoMenu{
+    color:aliceblue;
+}
+
+.tituloPaginas{
+    margin-top: 80px;
+}
+
+.tituloVaga{
+    color:rgb(69, 0, 158);
+    font-size: 25px;
+}
+
+.container{
+    display: flex;
+    list-style-type: none;
+}
+
+.mural{
+    height: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.atibutoVaga{
+    list-style-type: none;
+}
+.botao{
+    background-color:rgb(69, 0, 158);
+    color:whitesmoke;
+    margin-bottom: 10px;
+    margin-top: 10px
+
+}
+.botao:hover{
+    background-color:rgb(112, 16, 238);;
+    color:whitesmoke;
+}
+
+.label {
+    display:block;
+    font-weight: bold;
+}
+input{
+    border:1px solid "black";
+}
+
+.containerDrop {
+    margin-top: 10;
+    margin-bottom: 10;
+    
+}
+  
+.labelDrops {
+    font-size: 16;
+    margin-bottom: 5;
+}
+  
+.picker{
+    height: 50;
+    border-color: '#ccc';
+    border-width: 1,
+  }
+
+  .formCurriculo{
+     max-Width: '400px'; 
+     padding: '20px';
+     border: '1px solid #ccc';
+     border-Radius: '8px';
+     background-Color: 'white' ;
+    }
+  
+ .containerDenuncia{
+    margin-Bottom: '1rem';
+    display: flex;           
+    align-items: center;    
+    gap: 10px;
+    flex-direction: column;
+    font-weight: bold;
+};
+
+.labelDenuncia {
+    display: 'block';
+    font-Size: '1rem';
+    margin-Bottom: '0.5rem';
+    font-weight: bold;
+    margin-right: 10px; 
+    flex-direction: column;
+    
+};
+
+.selectDenuncia {
+    margin-top: 50px;
+    width: '100%';
+    padding: '0.5rem';
+    font-Size: '1rem';
+    border: '1px solid #ccc';
+    border-radius: '4px';
+    padding: 8px; 
+    
+};
+
+
+  .comentario {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .iconeUsuario {
+    margin-right: 10px;
+    color:midnightblue; 
+  }
+
+  .containerDenunciaPagina{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  }
